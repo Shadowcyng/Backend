@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js --exec babel-node server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",

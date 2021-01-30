@@ -30,4 +30,4 @@ app.use((err, req, res, next) => {
 	const status = err.name && err.name == 'ValidationError' ? 400 : 500;
 	res.status(status).json({ message: err.message });
 });
-app.listen(5000, () => console.log('server Started at localhost 5000'));
+// app.listen(5000, () => console.log('server Started at localhost 5000'));
